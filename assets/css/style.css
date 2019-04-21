@@ -44,7 +44,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: #1b273d
+    color: #202020
+
 }
 
 .h1,
@@ -410,7 +411,7 @@ button {
     padding: 1.5rem 4rem;
     display: inline-block;
     letter-spacing: .1rem;
-    background: #554bb9;
+    background: #202020;
     -moz-transition-duration: .3s;
     -webkit-transition-duration: .3s;
     -o-transition-duration: .3s;
@@ -435,7 +436,7 @@ button:hover {
 
 .lgx-btn-white,
 .lgx-btn-white:hover {
-    color: #554bb9
+    color: #202020
 }
 
 .lgx-btn span,
