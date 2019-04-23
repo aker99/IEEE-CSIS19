@@ -12,6 +12,111 @@ html {
     font-size: 62.5%
 }
 
+
+/*event details start*/
+
+
+/*event details end*/
+
+
+
+/*faq start*/
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+
+h3 {
+  font-size: 1.75rem;
+  color: #373d51;
+  padding: 1.3rem;
+  margin: 0;
+}
+
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #FBA507;
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #e5e5e5;
+}
+
+.accordion a:hover::after {
+  border: 1px solid #03b5d2;
+}
+
+.accordion a.active {
+  color: #03b5d2;
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion a::after {
+  font-family: 'Ionicons';
+  content: '\f218';
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #7288a2;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #7288a2;
+  text-align: center;
+}
+
+.accordion a.active::after {
+  font-family: 'Ionicons';
+  content: '\f209';
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+
+.accordion .content p {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+}
+
+.accordion .content.active {
+  opacity: 1;
+  padding: 15px;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
+}
+
+/*end faq*/
 body,
 p {
     font-family: Poppins, sans-serif;
@@ -7090,7 +7195,7 @@ button:hover:after {
 }
 
 .lgx-banner-info .circular-countdown-area {
-    max-width: 700px;
+    max-width: 400px;
     margin: 0 auto
 }
 
@@ -10833,7 +10938,7 @@ button:hover:after {
 .lgx-registration-simple .lgx-heading .subheading {
     opacity: .7
 }
-
+/*
 .lgx-inner-countdown {
     background: #554bb9;
     display: flex
@@ -11009,7 +11114,7 @@ button:hover:after {
     font-family: Oswald, sans-serif;
     font-size: 6.8rem;
     line-height: 10.2rem;
-    line-height: 150px;
+    line-height: 12 0px;
     font-weight: 900;
     display: inline-block;
     margin-bottom: 0;
@@ -11018,7 +11123,7 @@ button:hover:after {
     position: relative;
     top: 0;
     flex: 1;
-    height: 180px
+    height: 150px
 }
 
 .lgx-countdown-area-squre #lgx-countdown span:first-child {
@@ -11129,7 +11234,7 @@ button:hover:after {
         left: 0
     }
 }
-
+*/
 @media (max-width:767px) {
     #lgx-countdown span {
         font-size: 2.6rem;
