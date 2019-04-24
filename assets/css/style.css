@@ -29,7 +29,7 @@ h3 {
   padding: 1.3rem;
   margin: 0;
 }
-
+.vmiddle{margin-top: 100px}
 .accordion a {
   position: relative;
   display: -webkit-box;
@@ -594,7 +594,12 @@ button:hover:after {
 .lgx-btn-yellow {
     background: #FBA507
 }
-
+.lgx-text-yellow{
+    color: #FBA507
+}
+.lgx-text-black{
+    color: #202020
+}
 .lgx-btn-black {
     background: #1b273d
 }
@@ -6419,7 +6424,6 @@ button:hover:after {
 .lgx-header {
     background: #f1f1f1
 }
-
 .lgx-header .lgx-inner {
     margin: 0 auto
 }
@@ -6723,7 +6727,7 @@ button:hover:after {
 .lgx-header .menu-onscroll .lgx-nav-right .lgx-search,
 .lgx-header-position-white .lgx-nav-right .lgx-search a,
 .lgx-header-position-white .lgx-navbar .lgx-nav li a {
-    color: #fff
+    color: #000
 }
 
 .lgx-header {
@@ -7091,7 +7095,7 @@ button:hover:after {
 }
 
 .lgx-banner4 {
-    background: url(../img/bannar4.jpg) top center no-repeat;
+    background: url(../img/home-banner_f.jpg) top center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -8697,7 +8701,10 @@ button:hover:after {
     text-align: left
 }
 
-.lgx-about-content-area .lgx-heading .heading {
+.lgx-about-content-area {
+    margin-top: 30px;
+}
+.lgx-heading .heading {
     margin: 0
 }
 
@@ -12653,7 +12660,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-banner-inner {
-    background: url(../img/banner-inner2.jpg) center center no-repeat;
+    background: url(../img/team.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
