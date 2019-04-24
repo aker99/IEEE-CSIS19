@@ -9315,11 +9315,11 @@ button:hover:after {
 }
 
 .lgx-schedule {
-    background: #FBA507
+    background: #fde087
 }
 
 .lgx-schedule .lgx-inner {
-    background: url(../img/schedule-bg-pattern.png) bottom center no-repeat;
+    background: url(../img/shed.png) bottom center no-repeat;
     -webkit-background-size: 100% auto, cover;
     -o-background-size: 100% auto, cover;
     -moz-background-size: 100% auto, cover;
@@ -12660,7 +12660,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-banner-inner {
-    background: url(../img/team.jpg) center center no-repeat;
+    background: url(../img/team1.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;

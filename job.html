@@ -7,10 +7,10 @@
     <!-- The above 3 meta tags *must* come first in the head -->
 
     <!-- SITE TITLE -->
-    <title>Emeet</title>
+    <title>CSIS'19: Job Fair</title>
     <meta name="description" content="Responsive EventHunt HTML Template"/>
     <meta name="keywords" content="Bootstrap3, Event,  Conference, Meetup, Template, Responsive, HTML5"/>
-    <meta name="author" content="themearth.com"/>
+    <meta name="author" content="IEEE CSIS"/>
 
     <!-- twitter card starts from here, if you don't need remove this section -->
     <meta name="twitter:card" content="summary"/>
@@ -76,10 +76,20 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald:400,700%7cRaleway:300,400,400i,500,600,700,900"/>
 
     <!-- MASTER  STYLESHEET  -->
-    <link id="lgx-master-style" rel="stylesheet" href="assets/css/style-default.min.css" media="all"/>
+    <link id="lgx-master-style" rel="stylesheet" href="assets/css/style.css" media="all"/>
 
     <!-- MODERNIZER CSS  -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://use.fontawesome.com/29d6da9f37.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139056791-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-139056791-1');
+    </script>
 </head>
 
 <body class="home">
@@ -106,22 +116,22 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <div class="lgx-logo">
+                        <div class="lgx-logo" style="margin-top:20px ">
                             <a href="index.html" class="lgx-scroll">
-                                <img src="assets/img/logo.png" alt="Eventhunt Logo"/>
+                                <img src="assets/img/CSIS19_Logo_sm.png" alt="Eventhunt Logo"/>
                             </a>
                         </div>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
-                        <div class="lgx-nav-right navbar-right">
+                        <!--div class="lgx-nav-right navbar-right">
                             <div class="lgx-cart-area">
                                 <a class="lgx-btn lgx-btn-red" href="#">Buy Ticket</a>
                             </div>
-                        </div>
-                        <ul class="nav navbar-nav lgx-nav navbar-right">
+                        </div-->
+                        <ul class="nav navbar-nav lgx-nav navbar-right" style="color: #ffffff;">
                             <li>
-                                <a href="index.html" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-                                <ul class="dropdown-menu multi-level">
+                                <a href="index.html" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <!--span class="caret"></span--></a>
+                                <!--ul class="dropdown-menu multi-level">
                                     <li><a href="index.html">Home (Default)</a></li>
                                     <li><a href="index2.html">Box Layout</a></li>
                                     <li><a href="index3.html">Home Parallax</a></li>
@@ -140,9 +150,9 @@
                                     <li><a href="index16.html">Home Sixteen</a></li>
                                     <li><a href="index17.html">Home Christmas</a></li>
                                     <li><a href="index18.html">Home Comingsoon</a></li>
-                                </ul>
+                                </ul-->
                             <li>
-                            <li>
+                            <!--li>
                                 <a href="index.html" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
                                 <ul class="dropdown-menu multi-level">
                                     <li><a href="about.html">About</a></li>
@@ -151,7 +161,7 @@
                                         <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Speakers <span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="speakers.html">Speakers List</a></li>
-                                            <li><a href="speaker.html">Speaker Single</a></li>
+                                            <li>Speaker Single</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="sponsors.html">Sponsors List</a></li>
@@ -181,12 +191,19 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </li>
-                            <li><a class="lgx-scroll" href="#lgx-speakers">Speaker</a></li>
-                            <li><a class="lgx-scroll" href="#lgx-schedule">Schedule</a></li>
-                            <li><a class="lgx-scroll" href="#lgx-sponsors">Sponsors</a></li>
-                            <li><a class="lgx-scroll" href="#lgx-news">News</a></li>
-                            <li><a class="lgx-scroll" href="contact.html">Contact</a></li>
+                            </li-->
+                            <li><a class="lgx-scroll" href="index.html#lgx-about">About</a></li>
+
+                            <li><a class="lgx-scroll" href="index.html#lgx-schedule">Schedule</a></li>
+                            <li><a class="lgx-scroll" href="index.html#details">EVENT DETAILS</a></li>
+                              <li><a class="lgx-scroll" href="index.html#lgx-speakers">SPEAKERS</a></li>
+                            <li><a class="lgx-scroll" href="index.html#lgx-sponsors">Sponsors</a></li>
+                            <li><a class="lgx-scroll" href="job.html">Job Fairs</a></li>
+                            <li><a class="lgx-scroll" href="team.html">Team</a></li>
+                            <li><a class="lgx-scroll" href="index.html#faq">Faq</a></li>
+                            <li><a class="lgx-scroll" href="index.html#lgx-travelinfo">Venue</a></li>
+
+                            <li><a class="lgx-scroll" href="#lgx-footer">Contact</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </nav>
@@ -199,6 +216,7 @@
 
 
 
+
     <!--Banner Inner-->
     <section>
         <div class="lgx-banner lgx-banner-inner">
@@ -208,11 +226,11 @@
                         <div class="col-xs-12">
                             <div class="lgx-heading-area">
                                 <div class="lgx-heading lgx-heading-white">
-                                    <h2 class="heading">Offcial Sponsonrs</h2>
+                                    <h2 class="heading">Job Fair</h2>
                                 </div>
                                 <ul class="breadcrumb">
                                     <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-                                    <li class="active">Sponsors</li>
+                                    <li class="active">Job Fair</li>
                                 </ul>
                             </div>
                         </div>
@@ -228,80 +246,32 @@
             <!--News-->
             <section>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading first-heading">Gold Sponsors</h3>
-                            <div class="sponsors-area">
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor2.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor3.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor4.png" alt="sponsor"/></a>
-                                </div>
+                    <div class="row" >
+                    <div class="col-sm-12">
+                        <div class="lgx-about-content-area">
+                            <!--div class="lgx-heading" >
+                                <h2 class="heading" style="font-size: 32px;">ABOUT IEEE VCE SB</h2>
+                            </div-->
+                            <div>
+                                <p style="font-size: 18px; text-align: justify;">
+                                  IEEE VCE SB, a leveraging platform with the wide range of techno and
+                                  socio-culture which was established in the year 2005 for the benefit of student
+                                  members and to provide a culture of uniqueness and mind of innovators. IEEE
+                                  VCE SB serves as a home for most energetic, outstanding volunteers and by its
+                                  excellence in all initiatives and activities, they have also received the VIBRANT
+                                  STUDENT BRANCH AWARD. World blockchain hackathon, Sentience,
+                                  “VCON”, an international conference, AHCSSC 2018 and lot more events by
+                                  IEEE VCE SB encouraged the students and professionals in each and every aspect.
+                                </p>
                             </div>
                         </div>
-                        <!--//col-->
-                    </div>
-                    <!--//row-->
-                    <div class="row">
+                    </div></div>
+                    <div class="row" style="margin-top: 5rem">
                         <div class="col-xs-12">
-                            <h3 class="sponsored-heading secound-heading">Silver Sponsors</h3>
-                            <div class="sponsors-area">
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor6.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor2.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor5.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor3.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor4.png" alt="sponsor"/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//col-->
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading third-heading">Platinum Sponsors</h3>
-                            <div class="sponsors-area">
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor2.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor3.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" alt="sponsor"/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//col-->
-                    </div>
-                    <!--//row-->
 
-                    <div class="row" style="margin-top: 9rem">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading first-heading">Gold Sponsors</h3>
-                            <div class="sponsors-area sponsors-area-bg">
-                                <div class="single">
+                            <h3 class="sponsored-heading first-heading">Companies</h3>
+                                 <h1 style="text-align: center;margin-bottom :90px; font-size: 100px;"> COMING SOON</h1>
+                            <!--div class="sponsors-area sponsors-area-bg">
                                     <a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" alt="sponsor"/></a>
                                 </div>
                                 <div class="single">
@@ -319,25 +289,7 @@
                                 <div class="single">
                                     <a class="" href="#"><img src="assets/img/sponsors/sponsor2.png" alt="sponsor"/></a>
                                 </div>
-                            </div>
-                        </div>
-                        <!--//col-->
-                    </div>
-                    <!--//row-->
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading secound-heading">Silver Sponsors</h3>
-                            <div class="sponsors-area sponsors-area-bg">
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor6.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor2.png" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="assets/img/sponsors/sponsor1.png" alt="sponsor"/></a>
-                                </div>
-                            </div>
+                            </div-->
                         </div>
                         <!--//col-->
                     </div>
@@ -345,7 +297,7 @@
 
                 </div><!-- //.CONTAINER -->
             </section>
-            <!--News END-->
+
         </div>
     </main>
 
