@@ -12368,13 +12368,14 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-footer {
-    background: url(../img/footer-bg.jpg) bottom center no-repeat;
+    background-color: black;
+    /* url(../img/footer-bg.jpg) bottom center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     color: #fff;
-    text-align: center
+    text-align: center*/
 }
 
 .lgx-footer .lgx-inner-footer {
