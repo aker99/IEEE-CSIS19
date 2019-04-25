@@ -9858,6 +9858,11 @@ button:hover:after {
     margin-top: 0
 }
 
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 .sponsored-heading.secound-heading {
     color: #ec398b
 }
@@ -9875,12 +9880,12 @@ button:hover:after {
     margin: 0 .5% .6rem;
     padding: 1.6rem;
     border-radius: 16px;
-    width: 23%;
+    width: 30%;
     display: inline-block;
-    -webkit-transition: all .3s ease-in-out 0s;
-    -moz-transition: all .3s ease-in-out 0s;
-    -o-transition: all .3s ease-in-out 0s;
-    transition: all .3s ease-in-out 0s;
+    #-webkit-transition: all .3s ease-in-out 0s;
+    #-moz-transition: all .3s ease-in-out 0s;
+    #-o-transition: all .3s ease-in-out 0s;
+    #transition: all .3s ease-in-out 0s;
     -moz-box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .05);
     -webkit-box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .05);
     box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .05)
@@ -9900,8 +9905,8 @@ button:hover:after {
 }
 
 .sponsors-area .single:hover a img {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp;
+    #-webkit-animation-name: fadeInUp;
+    #animation-name: fadeInUp;
     -webkit-transform-origin: center;
     transform-origin: center;
     animation-duration: .4s;
