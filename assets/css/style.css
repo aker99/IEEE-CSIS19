@@ -42,7 +42,7 @@ h3 {
   -ms-flex-direction: column;
   flex-direction: column;
   width: 100%;
-  padding: 1rem 3rem 1rem 1rem;
+  padding: 1rem 5rem 1rem 1rem;
   color: #FBA507;
   font-size: 20px;
   font-weight: 400;
@@ -6989,20 +6989,21 @@ button:hover:after {
     }
     .lgx-header .lgx-navbar .lgx-logo a img,
     .lgx-header .menu-onscroll .lgx-navbar .lgx-logo a img {
-        max-width: 100px
+        max-width: 65% !important ;
+        margin-bottom: 15px;
     }
     .navbar-default .navbar-toggle {
         border-color: transparent;
         margin-top: 11px
     }
     .navbar-default .navbar-toggle span {
-        background-color: #554bb9!important;
+        background-color: #FBA507!important;
         width: 26px;
         height: 3px
     }
     .navbar-default .navbar-toggle:focus,
     .navbar-default .navbar-toggle:hover {
-        background-color: #554bb9
+        background-color: #FBA507
     }
     .navbar-default .navbar-toggle:focus span,
     .navbar-default .navbar-toggle:hover span {
