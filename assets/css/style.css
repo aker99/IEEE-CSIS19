@@ -65,8 +65,8 @@ h3 {
 }
 
 .accordion a::after {
-  font-family: 'Ionicons';
-  content: '\f218';
+  font-family: 'FontAwesome';
+  content: '\f063';
   position: absolute;
   float: right;
   right: 1rem;
@@ -83,8 +83,8 @@ h3 {
 }
 
 .accordion a.active::after {
-  font-family: 'Ionicons';
-  content: '\f209';
+  font-family: 'FontAwesome';
+  content: '\f062';
   color: #03b5d2;
   border: 1px solid #03b5d2;
 }
@@ -6788,7 +6788,7 @@ button:hover:after {
 }
 
 .lgx-header .menu-onscroll {
-    background: rgba(23,67,88,0.5);
+    background: #202020;
     position: fixed;
     top: 0;
     width: 100%;
@@ -9319,7 +9319,9 @@ button:hover:after {
 }
 
 .lgx-schedule .lgx-inner {
-    background: url(../img/shed.png) bottom center no-repeat;
+    /*background: url(../img/shed.png) bottom center no-repeat;
+    */
+    background-color: #FBA507;
     -webkit-background-size: 100% auto, cover;
     -o-background-size: 100% auto, cover;
     -moz-background-size: 100% auto, cover;
