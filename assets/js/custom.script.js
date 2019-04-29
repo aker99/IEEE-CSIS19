@@ -49,22 +49,22 @@ items.forEach(item => item.addEventListener('click', toggleAccordion));
                 "time": {
                     "Days": {
                         "text": "Days",
-                        "color": "#ec398b",
+                        "color": "#FBA507",
                         "show": true
                     },
                     "Hours": {
                         "text": "Hours",
-                        "color": "#fac400",
+                        "color": "#202020",
                         "show": true
                     },
                     "Minutes": {
                         "text": "Minutes",
-                        "color": "#00acee",
+                        "color": "#FBA507",
                         "show": true
                     },
                     "Seconds": {
                         "text": "Seconds",
-                        "color": "#483fa1",
+                        "color": "#202020",
                         "show": true
                     }
                 }

@@ -13417,3 +13417,8 @@ blockquote.lgx-testi-single:before {
         height: 180px
     }
 }
+
+
+.lgx-scroll {
+    color: whitesmoke !important;
+}
