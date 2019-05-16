@@ -9823,7 +9823,7 @@ button:hover:after {
 }
 
 .lgx-sponsors {
-    background: url(../img/sponsor-bg.jpg) bottom center no-repeat;
+    /* background: url(../img/sponsor-bg.jpg) bottom center no-repeat; */
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -13424,4 +13424,24 @@ blockquote.lgx-testi-single:before {
 
 .lgx-scroll {
     color: whitesmoke !important;
+}
+
+
+.textDiv_Days span {
+    color : #202020;
+}
+
+
+.textDiv_Hours span {
+    color : #202020;
+}
+
+
+.textDiv_Minutes span {
+    color : #202020;
+}
+
+
+.textDiv_Seconds span {
+    color : #202020;
 }
