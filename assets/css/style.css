@@ -29,6 +29,9 @@ h3 {
   padding: 1.3rem;
   margin: 0;
 }
+.no-padding{
+    padding: 0px;
+}
 .vmiddle{margin-top: 100px}
 .accordion a {
   position: relative;
