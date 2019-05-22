@@ -22,8 +22,8 @@
 
       })
 
-      var accessToken = "2a850bb4347449b5a957f68fc22879aa";
-      var baseUrl = "https://api.api.ai/v1/";
+      var accessToken = "397038e8-9359-49d2-99e3-37d5313f862a";
+      var baseUrl = "https://csis19-chatbot.azurewebsites.net/qnamaker";
 
       function send() {
 
@@ -47,27 +47,27 @@
         } else {
           $.ajax({
             type: "POST",
-            url: baseUrl + "query?v=20150910",
+            url: baseUrl + "/knowledgebases/393dc31b-37ab-4b3f-8c34-e6d914444280/generateAnswer",
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             headers: {
-              "Authorization": "Bearer " + accessToken
+              "Authorization": "EndpointKey " + accessToken
             },
             data: JSON.stringify({
-              query: msg,
-              lang: "en",
-              sessionId: "somerandomthing"
+              "question": msg
             }),
             success: function(data) {
               //console.log(JSON.stringify(data.result.fulfillment.speech, undefined, 2));
-              var output = JSON.stringify(data.result.fulfillment.speech, undefined, 2);
+              var output = JSON.stringify(data);
+              var result = JSON.parse(output);
+              var reply = result.answers[0].answer;
               var str = "";
               str += "<div id='cm-msg-" + INDEX + "' class=\"chat-msg " + type + "\">";
               str += "          <span class=\"msg-avatar\">";
               str += "            <img src=\"assets/img/chat-bot/logo-light.png\">";
               str += "          <\/span>";
               str += "          <div class=\"cm-msg-text\">";
-              str += output.slice(1, output.length - 1);
+              str += reply;
               str += "          <\/div>";
               str += "        <\/div>";
               $(".chat-logs").append(str);

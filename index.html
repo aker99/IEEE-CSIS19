@@ -108,7 +108,7 @@
       <!--chat-log -->
     </div>
     <div class="chat-input">
-      <form>
+      <form id="chatbot-form">
         <input type="text" id="chat-input" placeholder="Send a message..." />
         <input type="button"  class="chat-submit" id="chat-submit"/><label class="chat-submit" for="chat-submit"><i class="fa fa-paper-plane-o"></i></label>
       </form>
@@ -1554,6 +1554,13 @@ motivated, determined and exuberant volunteers, the Society is destined to prosp
 <!-- For Demo Purpose Only //Remove From Live-->
 
 <script src="assets/js/chatbot.js"></script>
+<script type="text/javascript">
 
+  $('#chatbot-form').submit(function (e) {
+
+    e.preventDefault();
+    $( "#chat-submit" ).trigger( "click" );
+});
+</script>
 </body>
 </html>
