@@ -89,6 +89,31 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
+  <div id="chat-circle" class="btn btn-raised">
+    <div id="chat-overlay"></div>
+    <i class="fa fa-comments fa-lg"  aria-hidden="true"></i>
+  </div>
+
+  <div class="chat-box">
+    <div class="chat-box-header">
+      CSIS Chatbot
+      <span class="chat-box-toggle"><i class="fa fa-times"></i></span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay">
+      </div>
+      <div class="chat-logs">
+
+      </div>
+      <!--chat-log -->
+    </div>
+    <div class="chat-input">
+      <form id="chatbot-form">
+        <input type="text" id="chat-input" placeholder="Send a message..." />
+        <input type="button"  class="chat-submit" id="chat-submit"/><label class="chat-submit" for="chat-submit"><i class="fa fa-paper-plane-o"></i></label>
+      </form>
+    </div>
+  </div>
 
 <div class="lgx-container ">
 <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
@@ -1383,8 +1408,10 @@ motivated, determined and exuberant volunteers, the Society is destined to prosp
                         </div>
                         <!--//main COL-->
                     </div>
+
                          <div class="row">
-                            <div class="lgx-travelinfo-content">
+
+                           <div class="lgx-travelinfo-content">
                     	<div class="col-xs-12 col-md-8">
                     				<iframe id="gmap_canvas"  style="position: relative; height: 100%; width: 100%;" src="https://maps.google.com/maps?q=MES%20College%20of%20Engineering%20%7C%20Kuttipuram&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
@@ -1523,11 +1550,19 @@ motivated, determined and exuberant volunteers, the Society is destined to prosp
 <!-- CUSTOM SCRIPT  -->
 <script src="assets/js/custom.script.js"></script>
 
-<div class="lgx-switcher-loader"></div>
-<!-- For Demo Purpose Only// Remove From Live >
+<!-- div class="lgx-switcher-loader"></div>
+<For Demo Purpose Only// Remove From Live >
 <script src="switcher/js/switcher.js_"></script>
 <!-- For Demo Purpose Only //Remove From Live-->
 
+<script src="assets/js/chatbot.js"></script>
+<script type="text/javascript">
 
+  $('#chatbot-form').submit(function (e) {
+
+    e.preventDefault();
+    $( "#chat-submit" ).trigger( "click" );
+});
+</script>
 </body>
 </html>
