@@ -64,7 +64,7 @@
               var str = "";
               str += "<div id='cm-msg-" + INDEX + "' class=\"chat-msg " + type + "\">";
               str += "          <span class=\"msg-avatar\">";
-              str += "            <img src=\"assets/img/chat-bot/logo-light.png\">";
+              str += "            <img src=\"assets/img/chatbot.png\">";
               str += "          <\/span>";
               str += "          <div class=\"cm-msg-text\">";
               str += reply;
