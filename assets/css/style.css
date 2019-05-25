@@ -10742,7 +10742,7 @@ button:hover:after {
 .lgx-registration-area .lgx-single-registration .single-top .price {
     font-family: Poppins, sans-serif;
     color: #efa506;
-    font-size: 6.8rem;
+    font-size: 4rem;
     line-height: 10.2rem;
     line-height: 8rem;
     font-weight: 900
@@ -10787,8 +10787,8 @@ button:hover:after {
 }
 
 .lgx-registration-area .lgx-single-registration:hover .lgx-single-registration-inner {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp;
+   # -webkit-animation-name: fadeInUp;
+   # animation-name: fadeInUp;
     -webkit-transform-origin: center;
     transform-origin: center;
     animation-duration: .6s;
