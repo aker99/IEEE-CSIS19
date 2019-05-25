@@ -217,7 +217,6 @@ html {
     .chat-msg.user>.msg-avatar img {
       width: 45px;
       height: 45px;
-      border-radius: 50%;
       float: left;
       width: 15%;
     }
@@ -9030,7 +9029,7 @@ button:hover:after {
 }
 
 .lgx-speakers2 {
-    background: url(../img/speakers-bg-black.jpg) bottom left no-repeat fixed;
+    background: #202020;
     -webkit-background-size: auto auto, cover;
     -o-background-size: auto auto, cover;
     -moz-background-size: auto auto, cover;
@@ -10633,7 +10632,7 @@ button:hover:after {
 }
 
 .lgx-registration3 {
-    background: #1b273d
+    background: #202020
 }
 
 .lgx-registration4 {
@@ -10708,11 +10707,14 @@ button:hover:after {
 }
 
 .lgx-registration-area .lgx-single-registration .lgx-btn {
-    background: #ec398b
+    background: #202020;
+    color : whitesmoke;
+    border-radius: 10px;
 }
 
 .lgx-registration-area .lgx-single-registration .lgx-btn:hover {
-    background: #efa506
+    background: #DDA234;
+    color : #202020; 
 }
 
 .lgx-registration-area .lgx-single-registration .lgx-single-registration-inner {
@@ -10722,7 +10724,7 @@ button:hover:after {
 }
 
 .lgx-registration-area .lgx-single-registration .single-top .title {
-    font-size: 2.6rem;
+    font-size: 3rem;
     line-height: 3.9000000000000004rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -10743,7 +10745,7 @@ button:hover:after {
 .lgx-registration-area .lgx-single-registration .single-top .price {
     font-family: Poppins, sans-serif;
     color: #efa506;
-    font-size: 6.8rem;
+    font-size: 4rem;
     line-height: 10.2rem;
     line-height: 8rem;
     font-weight: 900
@@ -10788,8 +10790,8 @@ button:hover:after {
 }
 
 .lgx-registration-area .lgx-single-registration:hover .lgx-single-registration-inner {
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp;
+   # -webkit-animation-name: fadeInUp;
+   # animation-name: fadeInUp;
     -webkit-transform-origin: center;
     transform-origin: center;
     animation-duration: .6s;
@@ -10838,27 +10840,27 @@ button:hover:after {
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(1) {
-    background: #efa506
+    background: #FBA507;
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(1) .single-top .title {
-    color: #efa506
+    color: #202020
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(2) {
-    background: #554bb9
+    background: #FBA507
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(2) .single-top .title {
-    color: #554bb9
+    color: #202020
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(3) {
-    background: #00acee
+    background: #FBA507
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(3) .single-top .title {
-    color: #00acee
+    color: #202020
 }
 
 .lgx-registration-area3 .lgx-single-registration:nth-child(4) {
@@ -10887,7 +10889,7 @@ button:hover:after {
 }
 
 .lgx-registration-area3 .lgx-single-registration .single-top .title {
-    padding-top: 5rem
+    padding-top: 30%;
 }
 
 .lgx-registration-area3 .lgx-single-registration:hover .single-top {
@@ -12631,7 +12633,7 @@ blockquote.lgx-testi-single:before {
 }
 
 .lgx-footer {
-    background-color: black;
+    background-color: #202020;
     /* url(../img/footer-bg.jpg) bottom center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
