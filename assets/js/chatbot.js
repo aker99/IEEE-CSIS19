@@ -22,7 +22,7 @@ $(function() {
 
       })
 
-      var accessToken = "a662c393182d42bd97f8887679d9bb71";
+      var accessToken = "6504a05a7eea46c2ba1028b387ad776f";
       var baseUrl = "https://api.api.ai/v1/";
 
       function send() {
